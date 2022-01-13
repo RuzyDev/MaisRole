@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_digiteParticipantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o nome dos participantes"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-black"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edit_participantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_digiteParticipantes"
+        app:startIconDrawable="@drawable/ic_clear"
+        android:hint="Participantes"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+   <com.google.android.material.button.MaterialButton
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       app:layout_constraintWidth_percent="0.8"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/edit_participantes"
+       android:text="Adicionar"
+       android:textColor="@color/white"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

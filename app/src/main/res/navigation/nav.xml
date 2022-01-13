@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navController"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="br.com.ruzy.maisrole.ui.home.HomeFragment"
+        tools:layout="@layout/home_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/agenda_fragment"
+        android:name="br.com.ruzy.maisrole.ui.agenda.AgendaFragment"
+        tools:layout="@layout/agenda_fragment">
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/calculadora_fragment"
+        android:name="br.com.ruzy.maisrole.ui.calculadora.CalculadoraFragment"
+        tools:layout="@layout/calculadora_fragment">
+
+    </fragment>
+
+
+</navigation>
