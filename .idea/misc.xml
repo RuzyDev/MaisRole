@@ -6,14 +6,16 @@
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/drawable/border.xml" value="0.2765625" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/drawable/bottom_bar.xml" value="0.2765625" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/drawable/gradient_card.xml" value="0.2765625" />
+        <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/drawable/gradient_card_produtos.xml" value="0.14791666666666667" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/drawable/ic_arrow.xml" value="0.2765625" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/drawable/ic_beer.xml" value="0.2765625" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2765625" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/drawable/ic_logo_role.xml" value="0.2765625" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/layout/agenda_fragment.xml" value="0.13177083333333334" />
-        <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/layout/calculadora_fragment.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/layout/calculadora_fragment.xml" value="0.25" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/layout/card_agenda_role.xml" value="0.67" />
+        <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/layout/card_produtos.xml" value="0.33" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/layout/dialog_add_participantes.xml" value="0.25" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/layout/home_fragment.xml" value="0.18" />
         <entry key="..\:/Users/ruan.oliveira/Documents/android/MaisRole/app/src/main/res/layout/participantes.xml" value="0.22" />
