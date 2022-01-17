@@ -12,13 +12,14 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import br.com.ruzy.maisrole.databinding.ActivityMainBinding
+import br.com.ruzy.maisrole.dtos.ParticipantesDto
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-
+    private var listParticipantes = ArrayList<ParticipantesDto>()
     private lateinit var navController: NavController
     private lateinit var navHostFragment: NavHostFragment
 

@@ -10,13 +10,13 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import br.com.ruzy.maisrole.MainActivity
 import br.com.ruzy.maisrole.R
+import br.com.ruzy.maisrole.dtos.ParticipantesDto
 import br.com.ruzy.maisrole.ui.home.HomeFragment
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.textview.MaterialTextView
 
-class ParticipantesAdapter() : RecyclerView.Adapter<ParticipantesAdapter.ViewHolder>() {
+class ParticipantesAdapter(var Participantes:ArrayList<ParticipantesDto>) : RecyclerView.Adapter<ParticipantesAdapter.ViewHolder>() {
 
-    val nomes = arrayListOf<String>()
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
@@ -44,24 +44,14 @@ class ParticipantesAdapter() : RecyclerView.Adapter<ParticipantesAdapter.ViewHol
             removeItem(position)
         }
 
-        viewHolder.participantes.text = nomes[position]
+        viewHolder.participantes.text = Participantes[position].nomeParticipante
     }
 
     // Return the size of your dataset (invoked by the layout manager)
-    override fun getItemCount() = nomes.size
+    override fun getItemCount() = Participantes.size
 
     fun removeItem(position: Int) {
-        nomes.removeAt(position)
-        notifyDataSetChanged()
-    }
-
-    fun addList(nome:String) {
-        nomes.add(nome)
-        notifyDataSetChanged()
-    }
-
-    fun clear() {
-        nomes.clear()
+        Participantes.removeAt(position)
         notifyDataSetChanged()
     }
 

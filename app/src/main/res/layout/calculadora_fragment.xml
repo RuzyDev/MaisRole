@@ -41,7 +41,7 @@
             app:layout_constraintTop_toBottomOf="@id/txt_participantesTitulo" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/editText"
+            android:id="@+id/btn_addParticipantes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/blueDefault"
@@ -58,7 +58,43 @@
             android:background="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintWidth_percent="0.9" />
+            app:layout_constraintWidth_percent="0.9"
+            android:layout_marginTop="5sp"
+            app:layout_constraintTop_toBottomOf="@id/btn_addParticipantes"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_produtosTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Produtos"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            app:layout_constraintStart_toStartOf="@id/divider"
+            android:layout_marginTop="15sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_produtos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="@id/divider"
+            app:layout_constraintStart_toStartOf="@id/divider"
+            app:layout_constraintTop_toBottomOf="@id/txt_produtosTitulo" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_addProdutos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blueDefault"
+            android:text="Adicionar produtos"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@id/divider"
+            app:layout_constraintTop_toBottomOf="@id/recycle_produtos" />
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
